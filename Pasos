@@ -6,6 +6,7 @@
 
 3. inicializar un proyecto existente descargado desde GitHub
     ng config
+    ng e2e
     ng serve
 
-    veamos si funciona
+    
