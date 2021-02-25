@@ -7,3 +7,5 @@
 3. inicializar un proyecto existente descargado desde GitHub
     ng config
     ng serve
+
+    veamos si funciona
