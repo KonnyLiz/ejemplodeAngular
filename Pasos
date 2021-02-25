@@ -20,3 +20,4 @@
 
 6. Es necesario tener la extención tslint para correciones sintacticas de ts
 
+7. Las rutas se crean con el archivo app.routes.ts
