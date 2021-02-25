@@ -9,4 +9,14 @@
     ng e2e
     ng serve
 
-    
+4. Se inicia el servidor con
+    ng serve
+
+5. Se crean componentes con
+    ng g c nombre
+
+    Se usa principalmente para crear partes de la pagina web, como el header y footer
+    Se usan en el componente principal como <app-body></app-body> en donde se requiera
+
+6. Es necesario tener la extención tslint para correciones sintacticas de ts
+
