@@ -1,1 +1,56 @@
-<p>form works!</p>
+<h3>Producto</h3>
+<hr>
+
+<div class="form-control">
+    <button [routerLink]="['/home']" class="btn btn-outline-danger" type="button">
+        Regresar
+    </button>
+</div>
+
+<div class="row">
+    <div class="col-md-12">
+
+        <form (ngSubmit)="guardar()" #forma="ngForm">
+            <div class="form-group">
+                <div class="mb-3">
+                    <label class="form-label">Categoria</label>
+                    <input type="text" class="form-control">
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">Stock</label>
+                    <input type="text" class="form-control">
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">Nombre</label>
+                    <input type="text" class="form-control">
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">Descripcion</label>
+                    <input type="text" class="form-control">
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">Perecedero</label>
+                    <input type="text" class="form-control">
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">Estado</label>
+                    <input type="text" class="form-control">
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">Marca</label>
+                    <input type="text" class="form-control">
+                </div>
+                
+            </div>
+
+            <div class="form-control">
+                <button class="btn btn-outline-primary" type="submit">
+                    Guardar
+                </button>
+            </div>
+            
+        </form>
+
+    </div>
+
+</div>
