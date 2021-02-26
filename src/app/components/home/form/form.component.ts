@@ -8,11 +8,13 @@ import { NgForm } from '@angular/forms';
 })
 export class FormComponent implements OnInit {
 
-  
+
 
   constructor() { }
 
   ngOnInit(): void {
   }
+
+  guardar(){};
 
 }
